@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import "./HomeMainBar.css"
 import QuestionList from "./QuestionList";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
