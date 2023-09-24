@@ -7,8 +7,8 @@ export const makePayment = (product) => async (dispatch) => {
     );
     const body = { products: product };
     const response = await api.makePayment(JSON.stringify(body));
-    console.log("Response from stripe", response);
-    console.log("Response.data", response.data);
+    // console.log("Response from stripe", response);
+    // console.log("Response.data", response.data);
     const session = await response.data.json();
 
     const result = stripe.redirectToCheckout({

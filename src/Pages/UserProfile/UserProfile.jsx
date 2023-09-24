@@ -50,7 +50,7 @@ const UserProfile = () => {
   //////////////////////////////////////////////////////////
 
   const { id } = useParams();
-  console.log("All Users", users);
+  // console.log("All Users", users);
   const currentProfile = users?.filter((user) => user._id === id)[0];
   let currentUser = User;
 

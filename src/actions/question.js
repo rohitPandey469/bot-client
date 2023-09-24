@@ -2,7 +2,7 @@ import * as api from "../api";
 
 export const askQuestion = (questionData, navigate) => async (dispatch) => {
   try {
-    console.log("reached",questionData)
+    // console.log("reached",questionData)
     const { data } = await api.postQuestion(questionData);
     dispatch({ type: "POST_QUESTION", payload: data });
     // to show question in question feed just after asking in question section
