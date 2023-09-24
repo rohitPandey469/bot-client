@@ -100,7 +100,7 @@ const QuestionDetails = () => {
   };
 
   const location = useLocation();
-  const url = "http://localhost:5000";
+  const url = "https://bot-server-kohs.onrender.com";
   const handleShare = (e) => {
     copy(url + location.pathname);
     alert("Copied url : " + url + location.pathname);
