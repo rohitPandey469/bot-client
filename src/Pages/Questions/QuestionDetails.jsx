@@ -100,7 +100,7 @@ const QuestionDetails = () => {
   };
 
   const location = useLocation();
-  const url = "https://bot-server-kohs.onrender.com";
+  const url = "https://bot-stack.netlify.app/";
   const handleShare = (e) => {
     copy(url + location.pathname);
     alert("Copied url : " + url + location.pathname);
