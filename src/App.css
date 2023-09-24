@@ -1,0 +1,9 @@
+.App {
+    background-color: #d4d4d4;
+    max-width: 100vw;
+    min-height: 100vh;
+   
+}
+body{
+    overflow-x: hidden;
+}
