@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import "./HomeMainbar.css";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import QuestionList from "./QuestionList";
 import { useSelector } from "react-redux";
